@@ -59,6 +59,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 - [Cupcake](https://github.com/eqtylab/cupcake) - Policy enforcement layer for coding agents that evaluates hook events against OPA/Rego rules and can allow, modify, block, warn, or require review.
 - [cco](https://github.com/nikvdp/cco) - Useful when the goal is to keep an agent in fast autonomous mode while interposing a sandbox boundary.
 - [nah](https://github.com/manuelschipper/nah) - Context-aware Claude Code permission guard that classifies tool calls by action type and applies deterministic allow, ask, or block policies.
+- [punkgo-jack](https://github.com/PunkGo/punkgo-jack) - Hook adapter for Claude Code and custom agents that records actions in an append-only Merkle log with cryptographic receipts and offline-verifiable session proofs.
 
 ## Orchestration and control planes
 
