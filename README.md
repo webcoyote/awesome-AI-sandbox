@@ -9,7 +9,9 @@ AI coding agents are useful precisely because they can read files, run commands,
 - [macOS-native sandboxes](#macos-native-sandboxes)
 - [Virtual machines and disposable environments](#virtual-machines-and-disposable-environments)
 - [Container and runtime sandboxes](#container-and-runtime-sandboxes)
+- [Foundational sandbox tools](#foundational-sandbox-tools)
 - [Permission and policy guardrails](#permission-and-policy-guardrails)
+- [Commercial apps](#commercial-apps)
 - [Orchestration and control planes](#orchestration-and-control-planes)
 - [Deprecated and archived projects](#deprecated-and-archived-projects)
 - [References](#references)
@@ -26,6 +28,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 ## Virtual machines and disposable environments
 
 - [Chamber](https://github.com/cirruslabs/chamber) - Runs Claude or Codex inside ephemeral Tart macOS VMs with the current directory mounted, aimed at safer YOLO-mode agent execution.
+- [Cleanroom](https://github.com/buildkite/cleanroom) - Self-hosted microVM sandbox for untrusted code with deny-by-default egress policy, repository-scoped allowlists, and host-side credential proxying.
 - [ClodPod](https://github.com/webcoyote/clodpod) - macOS VM workflow for local Apple-platform development with Xcode and multiple mapped projects.
 - [smolVM](https://github.com/smol-machines/smolvm) - Runs local microVMs for sandboxed workloads, with both ephemeral sandbox mode and persistent Linux VMs for isolated agent execution.
 - [Sculptor](https://github.com/imbue-ai/sculptor) - Desktop app for running parallel Claude agents in isolated containers and pairing with their environments to test and merge changes.
@@ -41,6 +44,13 @@ AI coding agents are useful precisely because they can read files, run commands,
 - [vibebin](https://github.com/jgbrwn/vibebin) - Incus/LXC-based platform for self-hosting persistent AI coding agent sandboxes on a Linux server with HTTPS routing, SSH access, and per-container tooling.
 - [cco](https://github.com/nikvdp/cco) - Thin wrapper that launches Claude Code or Codex inside native OS sandboxes when available, with Docker as a stronger fallback barrier.
 - [Docker AI Agent Sandboxes](https://docs.docker.com/ai/sandboxes/) - Docker's documentation and tooling around sandboxed environments for coding agents, including local containerized workflows.
+
+## Foundational sandbox tools
+
+- [bubblewrap](https://github.com/containers/bubblewrap) - Low-level Linux sandbox builder that creates restricted environments via namespaces and filesystem layout controls; used by higher-level tools to define their own security model.
+- [Firejail](https://github.com/netblue30/firejail) - Lightweight Linux sandbox program using namespaces, seccomp-bpf, capabilities, and bundled profiles to restrict untrusted applications.
+- [Minijail](https://google.github.io/minijail/) - Sandboxing and containment tool used in ChromeOS and Android, providing both a launcher for sandboxed processes and a library for self-sandboxing.
+- [syd](https://git.sr.ht/~alip/syd) - Linux application sandboxing tool that intercepts system calls in userspace and combines mechanisms like Landlock, namespaces, ptrace, and seccomp into a secure-by-default containment model.
 
 ## Permission and policy guardrails
 
