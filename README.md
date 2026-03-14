@@ -21,6 +21,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 - [SandVault](https://github.com/webcoyote/sandvault) - Runs Claude Code, OpenAI Codex, Gemini, and shell commands in a sandboxed macOS user account with a shared workspace and optional `sandbox-exec` hardening.
 - [yoloAI](https://github.com/kstenerud/yoloai) - Sandboxed runner for AI coding agents that can use `sandbox-exec` on macOS, Tart on Apple Silicon, or Docker, with a review-and-apply workflow based on diffs and commits.
 - [agent-sandbox.nix](https://github.com/archie-judd/agent-sandbox.nix) - Nix-based wrappers for sandboxing AI CLI tools with explicit package, state, and optional domain-level network allowances.
+- [nixcage](https://github.com/hamidr/nixcage) - Sandboxed Nix environments with direnv auto-activation. Cross-platform: bwrap on Linux, sandbox-exec on macOS.
 
 ## Virtual machines and disposable environments
 
@@ -30,8 +31,8 @@ AI coding agents are useful precisely because they can read files, run commands,
 - [smolVM](https://github.com/smol-machines/smolvm) - Runs local microVMs for sandboxed workloads, with both ephemeral sandbox mode and persistent Linux VMs for isolated agent execution.
 - [Sculptor](https://github.com/imbue-ai/sculptor) - Desktop app for running parallel Claude agents in isolated containers and pairing with their environments to test and merge changes.
 - [yoloAI](https://github.com/kstenerud/yoloai) - Supports disposable Tart-backed sandboxes on macOS alongside other backends.
-
 - [zapcode](https://github.com/TheUncharted/zapcode) - TypeScript interpreter for AI agents. Written in Rust. 2µs cold start. Sandboxed. Alternative to MCP tool calling.
+
 ## Container and runtime sandboxes
 
 - [AIO Sandbox](https://github.com/agent-infra/sandbox) - All-in-one sandbox environment that combines browser, shell, file APIs, VS Code server, Jupyter, and MCP services in a single Docker container.
@@ -41,6 +42,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 - [sandclaude](https://github.com/binwiederhier/sandclaude) - Opinionated Docker wrapper for running Claude Code without restrictions inside a sandboxed container with mounted workspace and host-matched user IDs.
 - [vibebin](https://github.com/jgbrwn/vibebin) - Incus/LXC-based platform for self-hosting persistent AI coding agent sandboxes on a Linux server with HTTPS routing, SSH access, and per-container tooling.
 - [cco](https://github.com/nikvdp/cco) - Thin wrapper that launches Claude Code or Codex inside native OS sandboxes when available, with Docker as a stronger fallback barrier.
+- [bunkervm](https://github.com/ashishgituser/bunkervm) - BunkerVM is a tiny operating system that boots in 2 seconds and gives AI agents a safe, isolated Linux machine to work in. Install it with one command. No Docker. No cloud. No config files.
 
 ## Foundational sandbox tools
 
