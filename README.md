@@ -19,6 +19,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 
 ### Multiplatform
 
+- [cage](https://github.com/pacificsky/cage) - Cage runs coding agents in isolated Docker containers on macOS or Linux
 - [agent-sandbox.nix](https://github.com/archie-judd/agent-sandbox.nix) - Nix wrappers for constrained AI CLI execution with explicit package and network allowances.
 - [cco](https://github.com/nikvdp/cco) - Thin launcher that picks a local sandbox backend rather than implementing one from scratch.
 - [nixcage](https://github.com/hamidr/nixcage) - Nix environment sandboxing with `bubblewrap` on Linux and `sandbox-exec` on macOS.
@@ -38,6 +39,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 
 ### Linux
 
+- [sandlock](https://github.com/multikernel/sandlock) - Confines untrusted code using Landlock, seccomp-bpf, and seccomp user notification.
 - [Fence](https://github.com/use-tusk/fence) - Native command sandbox for filesystem and network restrictions without containers.
 - [Matchlock](https://github.com/jingkaihe/matchlock) - Linux sandbox aimed at securing AI agent workloads.
 - [Microbox](https://github.com/hqarroum/microbox) - Lightweight ephemeral Linux sandboxes.
