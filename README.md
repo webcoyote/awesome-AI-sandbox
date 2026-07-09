@@ -54,6 +54,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 
 ### Multiplatform
 
+- [AgentBox](https://github.com/madarco/agentbox) - Run coding agents (Claude Code, Codex, OpenCode) in parallel across sandboxed VMs (local Docker, self-hosted, or cloud: Hetzner, Daytona, Vercel, E2B, DigitalOcean) with sub-second checkpoints, per-box browser/VS Code/shells, and git credentials kept on the host.
 - [boxed](https://github.com/akshayaggarwal99/boxed) - Code-execution engine for untrusted agent code across Docker, Firecracker, and Wasm.
 - [boxlite-labs/boxlite](https://github.com/boxlite-labs/boxlite) - Closely related BoxLite implementation under a different org namespace.
 - [BoxLite](https://github.com/boxlite-ai/boxlite) - Embeddable VM-style sandboxing with snapshots and persistent state.
