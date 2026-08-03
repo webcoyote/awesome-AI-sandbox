@@ -90,6 +90,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 - [conch](https://github.com/sd2k/conch) - Wasm/bash-style sandbox approach for agent command execution.
 - [EdgeBox](https://github.com/bigppwong/edgebox) - Local GUI sandbox that exposes a desktop to the agent.
 - [Kilntainers](https://github.com/Kiln-AI/Kilntainers) - MCP-oriented sandbox runtime backed by Docker, Podman, microVMs, or Wasm.
+- [llm-sandbox](https://github.com/vndee/llm-sandbox) - Python library for running LLM-generated code in containers, with Docker/Podman/Kubernetes backends and an MCP server.
 - [packnplay](https://github.com/obra/packnplay) - Docker-backed command sandbox with worktree and dev-container management.
 - [sandclaude](https://github.com/binwiederhier/sandclaude) - Opinionated Docker wrapper for Claude Code.
 - [Sculptor](https://github.com/imbue-ai/sculptor) - Desktop tooling for running agents inside isolated containers and testing changes.
