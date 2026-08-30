@@ -112,6 +112,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 - [predicate-secure](https://github.com/PredicateSystems/predicate-secure) - Policy-based authorization and post-run verification for agents.
 - [punkgo-jack](https://github.com/PunkGo/punkgo-jack) - Audit and receipt layer for agent actions via Merkle-logged hook events.
 - [shannot](https://github.com/corv89/shannot) - Human-in-the-loop execution and approval flow for LLM agents.
+- [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) - Local-first agent runtime with governed tool access, credential management, approval workflows, sandboxed sessions, and audit/replay.
 
 ### Linux
 
