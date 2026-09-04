@@ -177,6 +177,8 @@ AI coding agents are useful precisely because they can read files, run commands,
 - [Hacker News discussion: Let's discuss sandbox isolation](https://news.ycombinator.com/item?id=47184049) - Practitioner thread comparing user accounts, VMs, `bubblewrap`, and related approaches.
 - [Hacker News thread 47343927](https://news.ycombinator.com/item?id=47343927) - Additional discussion on permissions and coarse-grained approval models.
 
+- [Secure coding-agent sandbox decision](https://agenova.io/decisions/pilot/secure-agent-sandbox) - Public-evidence Pre-PoC qualification of Claude Code, Codex, Cursor, and GitHub Copilot for sandbox and network controls, with P0 blocking, unresolved unknowns, vendor questions, and candidate-specific PoC tests.
+
 ## Contributing
 
 Suggestions and pull requests are welcome. Favor projects that are specifically about isolating, constraining, or safely operating AI agents, especially tools with a clear security model and practical documentation.
