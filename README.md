@@ -116,6 +116,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 ### Linux
 
 - [firewarden](https://github.com/pigmonkey/firewarden) - Opens files inside private Firejail sandboxes; more policy wrapper than agent runtime.
+- [Lumi Eggcracker](https://github.com/noqt/Lumi-Eggcracker) - External Linux control for supported local AI workloads that uses cgroup v2 to stop a captured process tree and emits a receipt only after the owned boundary is observed empty; includes a no-install synthetic probe and a [historical browser replay](https://noqt.no-qt.chatgpt.site/products/eggcracker/demo). It is not a general sandbox or production monitoring system.
 
 ## Foundational sandbox primitives and low-level tooling
 
