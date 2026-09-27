@@ -32,6 +32,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 ### macOS
 
 - [Agent Safehouse](https://github.com/eugene1g/agent-safehouse) - Deny-first macOS Seatbelt profile system for local coding agents.
+- [opencode-seatbelt](https://github.com/ssmirr/opencode-seatbelt) - macOS Seatbelt sandbox that confines the OpenCode process so agents can't read secrets matched by `.ocignore`.
 - [sandbox-shell](https://github.com/agentic-dev3o/sandbox-shell) - macOS Seatbelt shell wrapper for deny-by-default filesystem access.
 - [SandVault](https://github.com/webcoyote/sandvault) - Runs agents in a separate macOS user account with `sandbox-exec` hardening.
 - [vibebox](https://github.com/robcholz/vibebox) - Fast local macOS sandbox oriented toward AI-agent use.
