@@ -100,6 +100,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 - [runbox](https://github.com/sahilb315/runbox) - Minimal container-like sandbox implementation in C.
 - [sbox](https://github.com/cvpaul/sbox) - Small isolation-first sandbox project.
 - [vibebin](https://github.com/jgbrwn/vibebin) - Incus/LXC platform for persistent self-hosted coding-agent sandboxes.
+- [coi](https://github.com/mensfeld/code-on-incus) - Runs your AI coding tool (Claude Code, Codex, opencode, pi, omp) inside its own isolated Linux system with active defense.
 
 ## Policy, approvals, and audit layers
 
