@@ -112,6 +112,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 - [predicate-secure](https://github.com/PredicateSystems/predicate-secure) - Policy-based authorization and post-run verification for agents.
 - [punkgo-jack](https://github.com/PunkGo/punkgo-jack) - Audit and receipt layer for agent actions via Merkle-logged hook events.
 - [shannot](https://github.com/corv89/shannot) - Human-in-the-loop execution and approval flow for LLM agents.
+- [provio](https://github.com/writ-agent/provio) - Per-tool-call policy (allow/deny/ask/redact) for Claude Code, Codex, Gemini CLI, Cursor, MCP and agent SDKs, with a kernel write boundary for `provio run` and a hash-chained, tamper-evident ledger.
 
 ### Linux
 
