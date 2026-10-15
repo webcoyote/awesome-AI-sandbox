@@ -59,6 +59,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 - [boxlite-labs/boxlite](https://github.com/boxlite-labs/boxlite) - Closely related BoxLite implementation under a different org namespace.
 - [BoxLite](https://github.com/boxlite-ai/boxlite) - Embeddable VM-style sandboxing with snapshots and persistent state.
 - [coderunner](https://github.com/instavm/coderunner) - Hosted-style sandbox runner for untrusted AI code.
+- [EQVPS sandboxes](https://eqvps.com/en/sandboxes) - Hosted, closed-source Firecracker microVM sandboxes for agents, driven over REST, Python/TypeScript SDKs or a remote MCP server; outbound internet only, no inbound ports.
 - [K7](https://github.com/katakate/k7) - Self-hosted lightweight VM sandbox infrastructure with API and SDK support.
 - [smolVM](https://github.com/smol-machines/smolvm) - Local microVM manager for ephemeral and persistent isolated workloads.
 
