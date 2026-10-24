@@ -110,6 +110,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 - [Cupcake](https://github.com/eqtylab/cupcake) - OPA/Rego-based hook enforcement for coding agents.
 - [deepclause-sdk](https://github.com/deepclause/deepclause-sdk) - Policy/runtime SDK for DML-style authorization logic.
 - [nah](https://github.com/manuelschipper/nah) - Deterministic allow/ask/block guard for Claude Code tool calls.
+- [OpenMoat](https://github.com/crocodile-labs/openmoat) - One local policy checked through each coding agent's hooks (commands, files, web, MCP), with OS sandbox settings, an egress proxy and a hash-chained audit log.
 - [predicate-secure](https://github.com/PredicateSystems/predicate-secure) - Policy-based authorization and post-run verification for agents.
 - [punkgo-jack](https://github.com/PunkGo/punkgo-jack) - Audit and receipt layer for agent actions via Merkle-logged hook events.
 - [shannot](https://github.com/corv89/shannot) - Human-in-the-loop execution and approval flow for LLM agents.
