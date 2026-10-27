@@ -174,6 +174,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 
 - [Awesome Agent Sandboxes](https://github.com/arjan/awesome-agent-sandboxes) - Curated list focused on AI/LLM execution sandboxes.
 - [Awesome Sandbox](https://github.com/restyler/awesome-sandbox) - Broad survey of sandboxing technologies and platforms.
+- [Boxyard](https://boxyard.dev) - Directory of cloud sandbox providers for AI agents, with published prices, limits, and side-by-side comparisons.
 - [Hacker News discussion: Agent Safehouse](https://news.ycombinator.com/item?id=47301085) - Discussion of recent local agent-isolation approaches.
 - [Hacker News discussion: Let's discuss sandbox isolation](https://news.ycombinator.com/item?id=47184049) - Practitioner thread comparing user accounts, VMs, `bubblewrap`, and related approaches.
 - [Hacker News thread 47343927](https://news.ycombinator.com/item?id=47343927) - Additional discussion on permissions and coarse-grained approval models.
