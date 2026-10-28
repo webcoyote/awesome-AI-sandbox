@@ -116,6 +116,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 
 ### Linux
 
+- [AEGIS by 100monkeys.ai](https://github.com/100monkeys-ai/aegis-orchestrator) - Self-hosted agent orchestrator whose agents run in isolated runtimes (Docker in development) under network and filesystem policy declared in each agent's manifest; AGPL-3.0, in beta.
 - [firewarden](https://github.com/pigmonkey/firewarden) - Opens files inside private Firejail sandboxes; more policy wrapper than agent runtime.
 
 ## Foundational sandbox primitives and low-level tooling
