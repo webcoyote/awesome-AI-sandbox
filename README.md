@@ -94,6 +94,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 - [packnplay](https://github.com/obra/packnplay) - Docker-backed command sandbox with worktree and dev-container management.
 - [sandclaude](https://github.com/binwiederhier/sandclaude) - Opinionated Docker wrapper for Claude Code.
 - [Sculptor](https://github.com/imbue-ai/sculptor) - Desktop tooling for running agents inside isolated containers and testing changes.
+- [yolo-jail](https://github.com/mschulkind-oss/yolo-jail) - Nix-defined agent environments run in rootless Podman or Apple Container jails, with optional macOS Seatbelt modes.
 
 ### Linux
 
@@ -110,6 +111,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 - [Cupcake](https://github.com/eqtylab/cupcake) - OPA/Rego-based hook enforcement for coding agents.
 - [deepclause-sdk](https://github.com/deepclause/deepclause-sdk) - Policy/runtime SDK for DML-style authorization logic.
 - [nah](https://github.com/manuelschipper/nah) - Deterministic allow/ask/block guard for Claude Code tool calls.
+- [OpenShell](https://github.com/NVIDIA/OpenShell) - NVIDIA runtime that enforces declarative file, network, and process policies on sandboxed agents, with human review for risky access changes.
 - [predicate-secure](https://github.com/PredicateSystems/predicate-secure) - Policy-based authorization and post-run verification for agents.
 - [punkgo-jack](https://github.com/PunkGo/punkgo-jack) - Audit and receipt layer for agent actions via Merkle-logged hook events.
 - [shannot](https://github.com/corv89/shannot) - Human-in-the-loop execution and approval flow for LLM agents.
