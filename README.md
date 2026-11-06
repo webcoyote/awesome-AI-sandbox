@@ -92,6 +92,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 - [EdgeBox](https://github.com/bigppwong/edgebox) - Local GUI sandbox that exposes a desktop to the agent.
 - [Kilntainers](https://github.com/Kiln-AI/Kilntainers) - MCP-oriented sandbox runtime backed by Docker, Podman, microVMs, or Wasm.
 - [packnplay](https://github.com/obra/packnplay) - Docker-backed command sandbox with worktree and dev-container management.
+- [Sandbox0](https://sandbox0.ai) - Managed cloud computers for AI agents with gVisor isolation and persistent writable RootFS checkpoints.
 - [sandclaude](https://github.com/binwiederhier/sandclaude) - Opinionated Docker wrapper for Claude Code.
 - [Sculptor](https://github.com/imbue-ai/sculptor) - Desktop tooling for running agents inside isolated containers and testing changes.
 - [yolo-jail](https://github.com/mschulkind-oss/yolo-jail) - Nix-defined agent environments run in rootless Podman or Apple Container jails, with optional macOS Seatbelt modes.
