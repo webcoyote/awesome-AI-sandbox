@@ -60,6 +60,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 - [BoxLite](https://github.com/boxlite-ai/boxlite) - Embeddable VM-style sandboxing with snapshots and persistent state.
 - [coderunner](https://github.com/instavm/coderunner) - Hosted-style sandbox runner for untrusted AI code.
 - [K7](https://github.com/katakate/k7) - Self-hosted lightweight VM sandbox infrastructure with API and SDK support.
+- [Mudroom](https://github.com/Kernel-Hunter/mudroom) - Runs coding agents in a Linux micro-VM or Docker/Podman container on a clone of the project, with an allowlist proxy and per-hunk review of changes.
 - [smolVM](https://github.com/smol-machines/smolvm) - Local microVM manager for ephemeral and persistent isolated workloads.
 
 ### macOS
