@@ -77,6 +77,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 - [hhtpcd/firecracker-sandbox](https://github.com/hhtpcd/firecracker-sandbox) - Another Firecracker sandbox implementation.
 - [nervos](https://github.com/ashishgituser/nervos) - Firecracker-microVM sandbox for AI agents.
 - [python-firecracker](https://github.com/okeso/python-firecracker) - Python interface for Firecracker rather than a full agent sandbox product.
+- [Sandswap](https://github.com/ChaoyiHuang/sandswap) - Sandswap redefines the microVM by decoupling compute from disk: a microVM acts as pure compute(only the kernel and PID 1 warden), while the agent's rootfs (SandFS) is simply a directory(local or distributed). SandFS is dynamically mounted into the microVM to execute commands with ultra-low latency—~2.3 ms cold and ~0.96 ms warm. Ideally,a single microVM can be reused up to 183 times per second across different AI agents.
 
 ## Containers, LXC, and packaged runtimes
 
