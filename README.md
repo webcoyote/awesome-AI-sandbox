@@ -74,6 +74,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 - [avkcode/firecracker-sandbox](https://github.com/avkcode/firecracker-sandbox) - Firecracker-based sandbox experiment.
 - [bunkervm](https://github.com/ashishgituser/bunkervm) - Tiny Linux VM environment positioned as a simple safe machine for agents.
 - [Cleanroom](https://github.com/buildkite/cleanroom) - Self-hosted microVM sandbox with deny-by-default egress and credential proxying.
+- [CubePod](https://github.com/cubeplexai/cubepod) - Self-hosted Kata MicroVM execution platform with persistent writable RootFS and workspace block volumes, Copy-on-Write forks, zero-trust `cpodref_` egress secret brokering, and E2B SDK compatibility.
 - [hhtpcd/firecracker-sandbox](https://github.com/hhtpcd/firecracker-sandbox) - Another Firecracker sandbox implementation.
 - [nervos](https://github.com/ashishgituser/nervos) - Firecracker-microVM sandbox for AI agents.
 - [python-firecracker](https://github.com/okeso/python-firecracker) - Python interface for Firecracker rather than a full agent sandbox product.
