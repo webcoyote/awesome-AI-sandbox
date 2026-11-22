@@ -67,6 +67,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 - [Chamber](https://github.com/cirruslabs/chamber) - Ephemeral Tart-based macOS VM runner for Claude or Codex.
 - [ClodPod](https://github.com/webcoyote/clodpod) - macOS VM workflow that maps host projects into a guest environment.
 - [lima-devbox](https://github.com/recodelabs/lima-devbox) - Lima-based VM dev sandbox workflow for Mac.
+- [metacomputer](https://github.com/metavert-io/metacomputer) - Disposable Ubuntu desktop VM on a Mac for Claude Code or Codex, with host sharing off, a gateway to the public internet only (per-task allowlists), a credential vault and a guard on every tool call.
 
 ### Linux
 
