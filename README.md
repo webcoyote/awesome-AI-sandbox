@@ -77,6 +77,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 - [hhtpcd/firecracker-sandbox](https://github.com/hhtpcd/firecracker-sandbox) - Another Firecracker sandbox implementation.
 - [nervos](https://github.com/ashishgituser/nervos) - Firecracker-microVM sandbox for AI agents.
 - [python-firecracker](https://github.com/okeso/python-firecracker) - Python interface for Firecracker rather than a full agent sandbox product.
+- [vmforai](https://github.com/emincan2000/vmforai) - Runs Claude Code, Codex, Gemini CLI, OpenCode or aider in libvirt/KVM VMs over SSH, with a snapshot before each session and one-command undo.
 
 ## Containers, LXC, and packaged runtimes
 
