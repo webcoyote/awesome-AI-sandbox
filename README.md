@@ -61,6 +61,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 - [coderunner](https://github.com/instavm/coderunner) - Hosted-style sandbox runner for untrusted AI code.
 - [K7](https://github.com/katakate/k7) - Self-hosted lightweight VM sandbox infrastructure with API and SDK support.
 - [smolVM](https://github.com/smol-machines/smolvm) - Local microVM manager for ephemeral and persistent isolated workloads.
+- [virtx](https://github.com/brekkylab/virtx) - Disposable libkrun microVMs for running untrusted agent code, driven from Python, Node.js or Rust with no Docker or daemon.
 
 ### macOS
 
