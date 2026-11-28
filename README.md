@@ -155,6 +155,7 @@ AI coding agents are useful precisely because they can read files, run commands,
 - [ash-ai](https://github.com/ash-ai-org/ash-ai) - Hosted agent infrastructure that includes sandboxing among broader API/session concerns.
 - [bouvet](https://github.com/vrn21/bouvet) - Rust agent sandbox project; promising, but closer to an early experiment than a mature platform.
 - [cagent](https://github.com/noperator/cagent) - Related repository mentioned in sandbox-isolation discussion; not clearly positioned as a general-purpose sandbox product.
+- [Casama](https://github.com/casama-ai/casama) - AI teammates that work on sandboxed Linux computers and ask for approval before risky actions. The computer image, safety rules and egress proxy (blocks private and cloud metadata addresses for Docker computers) are open source; the server engine is closed.
 - [co-do](https://github.com/paulkinlan/co-do) - Browser-as-sandbox experiment, useful conceptually but narrower than a general local sandbox.
 - [construct-cli](https://github.com/estebanforge/construct-cli) - Secure loading/execution project for AI agents.
 - [forgemax](https://github.com/postrv/forgemax) - MCP gateway with sandboxed code execution for tool orchestration.
